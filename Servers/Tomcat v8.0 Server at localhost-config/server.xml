@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="simplelogin" path="/simplelogin" reloadable="true" source="org.eclipse.jst.jee.server:simplelogin"/><Context docBase="demoapp" path="/demoapp" reloadable="true" source="org.eclipse.jst.jee.server:demoapp"/><Context docBase="Helloapp" path="/Helloapp" reloadable="true" source="org.eclipse.jst.jee.server:Helloapp"/><Context docBase="practiceTask1" path="/practiceTask1" reloadable="true" source="org.eclipse.jst.jee.server:practiceTask1"/></Host>
+      <Context docBase="simplelogin" path="/simplelogin" reloadable="true" source="org.eclipse.jst.jee.server:simplelogin"/><Context docBase="demoapp" path="/demoapp" reloadable="true" source="org.eclipse.jst.jee.server:demoapp"/><Context docBase="Helloapp" path="/Helloapp" reloadable="true" source="org.eclipse.jst.jee.server:Helloapp"/><Context docBase="practiceTask1" path="/practiceTask1" reloadable="true" source="org.eclipse.jst.jee.server:practiceTask1"/><Context docBase="springAnnotation" path="/springAnnotation" reloadable="true" source="org.eclipse.jst.jee.server:springAnnotation"/></Host>
     </Engine>
   </Service>
 </Server>
