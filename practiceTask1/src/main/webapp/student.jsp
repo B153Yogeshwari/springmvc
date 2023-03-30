@@ -12,15 +12,15 @@
 <form action="student">
 <tr>
 	<td><label for="name"> Full Name:</label></td>
-	<td><input type="text" id="nam" name="name" required></td>
+	<td><input type="text" id="name" name="name" required></td>
 </tr> 
 <tr>
 	<td><label for="fatherName"> Father Name:</label></td>
-	<td><input type="text" id="name1" name="fatherName" required></td>
+	<td><input type="text" id="fatherName" name="fatherName" required></td>
 </tr> 
 <tr>
 	<td><label for="address"> Postal Address:</label></td>
-	<td><input type="text" id="addr" name="address" required></td>
+	<td><input type="text" id="address" name="address" required></td>
 </tr> 
 
 <tr>
