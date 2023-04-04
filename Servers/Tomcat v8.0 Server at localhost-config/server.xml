@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="ControllertouiModel" path="/ControllertouiModel" reloadable="true" source="org.eclipse.jst.jee.server:ControllertouiModel"/><Context docBase="ControllertoUi_ModelMap" path="/ControllertoUi_ModelMap" reloadable="true" source="org.eclipse.jst.jee.server:ControllertoUi_ModelMap"/><Context docBase="ControllertoUi_ModelAttribute" path="/ControllertoUi_ModelAttribute" reloadable="true" source="org.eclipse.jst.jee.server:ControllertoUi_ModelAttribute"/></Host>
+      <Context docBase="ControllertouiModel" path="/ControllertouiModel" reloadable="true" source="org.eclipse.jst.jee.server:ControllertouiModel"/><Context docBase="ControllertoUi_ModelMap" path="/ControllertoUi_ModelMap" reloadable="true" source="org.eclipse.jst.jee.server:ControllertoUi_ModelMap"/><Context docBase="ControllertoUi_ModelAttribute" path="/ControllertoUi_ModelAttribute" reloadable="true" source="org.eclipse.jst.jee.server:ControllertoUi_ModelAttribute"/><Context docBase="PracticeTask1_byModel" path="/PracticeTask1_byModel" reloadable="true" source="org.eclipse.jst.jee.server:PracticeTask1_byModel"/><Context docBase="PracticeTask2" path="/PracticeTask2" reloadable="true" source="org.eclipse.jst.jee.server:PracticeTask2"/><Context docBase="Springhibernateconnection" path="/Springhibernateconnection" reloadable="true" source="org.eclipse.jst.jee.server:Springhibernateconnection"/></Host>
     </Engine>
   </Service>
 </Server>
